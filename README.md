@@ -12,12 +12,12 @@ then copy upload_and_execute.rb inside custom file<br>
 
 After saving the script, reload Metasploit to detect the new module:<br>
 
-msfconsole -q -x "reload_all"<br> #terminal
+msfconsole -q -x "reload_all" #terminal<br>
 
 Alternatively, start msfconsole and manually reload:<br>
 
-msfconsole<br>         #terminal
-msf6 > reload_all<br>  #terminal
+msfconsole        #terminal <br>
+msf6 > reload_all<br>  #terminal<br>
 
  ****** Use the Custom Module ****** | <br>
 
@@ -42,9 +42,9 @@ msf6 post(custom/upload_and_execute.rb) > run<br>
 
 If you want Metasploit to always load custom modules from ~/.msf4/modules/, add this line to your .bashrc or .zshrc:<br>
 
-export MSF_MODULE_PATH=~/.msf4/modules <br> #terminal  
+export MSF_MODULE_PATH=~/.msf4/modules #terminal  <br>
 
 Then reload your shell:<br>
 
-source ~/.bashrc  # or source ~/.zshrc   <br#terminal 
+source ~/.bashrc  # or source ~/.zshrc   #terminal <br> 
 
